@@ -1,0 +1,56 @@
+.write {
+  padding-top: 50px;
+}
+.writeImg {
+  width: 70vw;
+  height: 250px;
+  margin-left: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.writeForm {
+  position: relative;
+}
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgb(102, 93, 93);
+}
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+.writeInput:focus {
+  outline: none;
+}
+.writeTextArea {
+  font-size: 20px;
+  height: 100vh;
+}
+
+.writeSubmit {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
